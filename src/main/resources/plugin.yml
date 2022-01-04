@@ -1,7 +1,11 @@
-name: Mc Plugin Template
+main: de.bluewolf.mcplugin.core.Plugin
+name: McPluginTemplate
 version: '${project.version}'
-main: de.bluewolf.mcplugin.mcplugintemplate.McPluginTemplate
 api-version: 1.18
 authors: [ Bluewolf787 ]
 description: This is a template for Minecraft Spigot plugins
 website: https://bluewolf787.github.io
+
+commands:
+  ping:
+    description: Get your current ping.

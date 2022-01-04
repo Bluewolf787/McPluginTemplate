@@ -1,8 +1,0 @@
-main: de.bluewolf.mcplugin.core.Plugin
-name: McPluginTemplate
-version: 1.0.0
-author: Bluewolf787
-
-commands:
-  ping:
-    description: Get your current ping.

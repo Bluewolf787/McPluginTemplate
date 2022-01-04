@@ -20,7 +20,8 @@ public class CmdPing implements CommandExecutor
                 if (args.length == 0) // Check if there is only 1 argument
                 {
                     player.sendMessage(String.format("%s§aYour ping is: §b%d", PluginConfig.PLUGIN_PREFIX, player.getPing()));
-                }
+                } else
+                    player.sendMessage(String.format("%s§fUse §6/ping §fto show your current ping.", PluginConfig.PLUGIN_PREFIX));
             }
         }
 
