@@ -1,10 +1,11 @@
-main: de.bluewolf.mcplugin.core.Plugin
+main: net.example.mcplugin.core.Plugin
 name: McPluginTemplate
 version: '${project.version}'
+prefix: PLUGIN
 api-version: 1.18
 authors: [ Bluewolf787 ]
-description: This is a template for Minecraft Spigot plugins
-website: https://bluewolf787.github.io
+description: This is a template for Minecraft Spigot 1.18.1 plugins
+website: YOUR URL
 
 commands:
   ping:
